@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+
+    <title>RC Multimarcas</title>
+</head>
+
+<body>
+    <header>
+        <img src="src/image/selection.png" alt="image-fp">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Carros</a></li>
+                <li><a href="#">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container">
+        <div class="list">
+            <div class="item active">
+                <div class="car-image">
+                    <img src="src/image/ferrari.png" alt="image-ferrari">
+                </div>
+
+                <div class="content">
+                    <p class="car-information"> Informação do Carro</p>
+                    <h2>Ferrari</h2>
+                    <p class="description">
+                        A Ferrari California é um tipo de carro turístico produzido a partir do segundo semestre de 2008. A Califórnia é o primeiro modelo da gama Ferrari a adotar um corpo coupé-cabrio, com uma parte superior em metal removível e dobrável.
+                    </p>
+                    <button class="information">
+                        Saiba Mais
+                    </button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="car-image">
+                    <img src="src/image/lambo.png" alt="image-lamborghini">
+                </div>
+
+                <div class="content">
+                    <p class="car-information"> Informação do Carro</p>
+                    <h2>Lamborghini</h2>
+                    <p class="description">
+                        O Aventador tem um desempenho estimado para fazer 0–100 km/h em 2,9 segundos e velocidade máxima limitada é de 350 km/h. e oficial de 380 km/h.
+                    </p>
+                    <button class="information">
+                        Saiba Mais
+                    </button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="car-image">
+                    <img src="src/image/porsche.png" alt="image-porsche">
+                </div>
+
+                <div class="content">
+                    <p class="car-information"> Informação do Carro</p>
+                    <h2>911 turbo</h2>
+                    <p class="description">
+                        A versão 911 Turbo S é a mais cara da linha e tem 530 cavalos de potência. Ela pode ir de 0 a 100 km/h em 3,3 segundos e atingir uma velocidade máxima de 315 km/h. 
+                    </p>
+                    <button class="information">
+                        Saiba Mais
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrows">
+            <button id="prev"><img src="src/image/arrow.png" alt="seta-direita"></button>
+            <button id="next"><img src="src/image/arrow.png" alt="seta-esquerda"></button>
+        </div>
+
+        <div class="indicators">
+            <div class="number">01</div>
+            <ul>
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
